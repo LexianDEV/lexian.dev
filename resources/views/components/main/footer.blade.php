@@ -4,9 +4,8 @@
             <!-- Social Links -->
             <div class="column">
                 <p>Connect with me:</p>
-                <a href="https://twitter.com/yourprofile">Twitter</a> |
-                <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> |
-                <a href="https://github.com/yourprofile">GitHub</a>
+                <a href="https://twitter.com/lexiandev">Twitter</a> |
+                <a href="https://github.com/lexiandev">GitHub</a>
             </div>
             <!-- Copyright Information -->
             <div class="column">
