@@ -1,0 +1,4 @@
+/* Rounded Images */
+img {
+    border-radius: var(--bulma-radius-medium);
+}
