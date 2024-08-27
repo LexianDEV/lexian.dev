@@ -23,3 +23,13 @@ This portfolio is in use at [our website](https://lexian.dev).
 After you've completed set up, you may run the command ``php artisan export`` to generate a static site. This will create a folder called "dist" which you may upload to your web server.
 
 **Note:** When using this method of hosting; you will need to change the .env variable ``APP_URL`` to the URL of your website.
+
+## Settings
+You can change the settings in the .env file. Here are some of the important settings that you can change:
+
+- ``APP_NAME``: The name of your website.
+- ``APP_URL``: The URL of your website.
+- ``GITHUB_USERNAME``: Your Github username.
+- ``GITHUB_FILTER_FORKS``: Whether to filter out forked repositories. (true/false)
+- ``GITHUB_FILTER_ARCHIVED``: Whether to filter out archived repositories. (true/false)
+- ``GITHUB_FILTER_DESCRIPTION``: Whether to filter out repositories without a description. (true/false)
