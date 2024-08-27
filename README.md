@@ -18,3 +18,8 @@ This portfolio is in use at [our website](https://lexian.dev).
 12. Run the command ``php artisan serve`` to start the server.
 13. Start the scheduler by running the command ``php artisan schedule:work``. (For production, you may want to add this as a CRON job.)
 14. Visit the ``http://127.0.0.1:8000`` address in your browser to see your portfolio.
+
+## Generating a static site
+After you've completed set up, you may run the command ``php artisan export`` to generate a static site. This will create a folder called "dist" which you may upload to your web server.
+
+**Note:** When using this method of hosting; you will need to change the .env variable ``APP_URL`` to the URL of your website.
